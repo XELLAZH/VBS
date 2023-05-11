@@ -1,0 +1,13 @@
+.player-line {
+    display: flex;
+}
+
+.fullname {
+    width: 200px;
+    height: 20px;
+    
+    padding-top: 6px;
+    padding-bottom: 6px;
+
+    text-align: center;
+}
