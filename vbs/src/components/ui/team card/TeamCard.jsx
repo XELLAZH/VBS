@@ -1,12 +1,17 @@
 import PlayerLine from "./PlayerLine";
+import styles from './Team.module.css';
+import {players} from '../../../data/players.data.js';
 
 function TeamCard(){
     return (
-        <div className="team-card">
-            <div className="name"></div>
-            <div className="players-list">
+        <div className={styles.card}>
+            <div className={styles.name}>Энергия</div>
+            <div className={styles.playersList}>
                 Список игроков:
-                <PlayerLine />
+
+                {players.map(player => (
+                    <PlayerLine key={player.id} player={player}/>
+                ))}
             </div>
         </div>
     )

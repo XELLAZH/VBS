@@ -1,5 +1,15 @@
-.player-line {
+.playerLine {
     display: flex;
+    
+    margin-bottom: 8px;
+}
+
+.capitanLine {
+    display: flex;
+    
+    color: #d90000;
+
+    margin-bottom: 8px;
 }
 
 .fullname {
@@ -10,4 +20,37 @@
     padding-bottom: 6px;
 
     text-align: center;
+
+    background-color: #fff;
+    border: 0.5px solid #000;
+    border-radius: 10px;
+}
+
+.position {
+    width: 40px;
+    height: 20px;
+    
+    padding-top: 6px;
+    padding-bottom: 6px;
+
+
+    text-align: center;
+
+    background-color: #fff;
+    border: 0.5px solid #000;
+    border-radius: 10px;
+}
+
+.playerNumber {
+    width: 40px;
+    height: 20px;
+    
+    padding-top: 6px;
+    padding-bottom: 6px;
+
+    text-align: center;
+
+    background-color: #fff;
+    border: 0.5px solid #000;
+    border-radius: 10px;
 }

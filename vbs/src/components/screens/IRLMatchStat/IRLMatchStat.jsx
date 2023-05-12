@@ -1,8 +1,12 @@
-import TeamCard from "../../ui/team card/TeamCard"
+import TeamCard from "../../ui/team card/TeamCard";
+import styles from './IRLMatchStat.module.css';
 
 function IRLMatchStat() {
     return(
-        <TeamCard/>
+        <div className={styles.container}>
+            <TeamCard/>
+            <TeamCard/>
+        </div>
     )
 }
 
